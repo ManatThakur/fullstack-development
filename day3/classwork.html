@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <link  rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        #first{ color:blue;}
+      .second{color:blueviolet;}
+      <!--group selector-->
+      
+      
+      
+      
+      #first, second{
+        color: hotpink;
+      }
+      <!-- descendent selector-->
+      div p{
+        color:brown;
+      }
+      #box{
+      background-position: center;
+        
+       height: 500px;
+        width:500px;
+        justify-content: center;
+        padding:10px;
+      text-align: center;
+      display:flex;
+      background-image : url(https://i.pinimg.com/736x/72/5d/42/725d42fb10fe3fbf5239b86897c55780.jpg);
+      background-size: contain;
+      border-style: solid;
+      background-repeat: no-repeat;
+      }
+      #box img{
+        max-width: 20%;
+        max-height: 20%;
+        display:flex;
+      }
+      #backgrd{
+
+    height:400px;
+    width:400px;
+      border:2px solid black;
+      display:flex;
+       background-image : url(https://i.pinimg.com/736x/72/5d/42/725d42fb10fe3fbf5239b86897c55780.jpg);
+      background-size: contain;
+      border-style: solid;
+      background-repeat: no-repeat;
+      background-position: center;
+           
+}
+
+   
+        
+      
+
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+</script> 
+    
+</head>
+<body>
+    <h1 style="color:blanchedalmond;line-height: 80px; font-style: oblique;">THIS IS HEADING</h1>
+    <p style="color:aqua; font font-family: hyphens;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p id="first">ID SELECTOR</p>
+    <P class="second">Class selector</P>
+    <P class="second">Class selector22</P>
+   <!-- <div>
+        <p>it is descendent selector</p>-->
+    
+    <!--<div id="box">
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/007/461/014/small_2x/profile-gradient-logo-design-template-icon-vector.jpg" 
+      
+      
+      >this IS A BOX
+    -->
+    <div id ="backgrd"></div>
+    <i  style="font-size: 300px " class="fa fa-car" >hello</i>
+    
+</body>
+</html>
